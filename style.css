@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background:powderblue;
+	height: 720px;
+	width: 100%;
+}
+.size{
+	margin: auto;
+	width: 1200px;
+}
+.header{
+	background-image: url(tech.jpg);
+	height: 80px;
+	line-height: 80px;
+}
+.header img{
+	width: 200px;
+	height: 70px;
+	border-radius: 20px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 2px solid #524FA1;
+}
+h1{
+	text-align: center;
+	font-family: forte;
+	color: white;
+
+}
+.menu{
+	background: yellow;
+	height: 60px;
+	background-size: cover;
+}
+ul{
+	text-align: right;
+	margin: auto;
+	
+
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	font-size:20px;
+	color: black;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	font-family: poppins;
+	padding: 5px 5px;
+	
+
+
+}
+.content_area{
+	background: red;
+	height: 400px;
+}
+.content{
+	background: blue;
+	height: 100%;
+	width: 80%;
+	float: left;
+
+}
+.sidebar{
+	background: gray;
+	height: 100%;
+	width: 20%;
+	float: right;
+}
+.footer{
+	background: black;
+	height: 60px;
+}
